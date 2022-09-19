@@ -6,8 +6,8 @@
 
 .header{
     width:100%;
-    height:350px;
-    background-color:red;
+    height:50px;
+    
 }
 
 .flex{
@@ -15,8 +15,8 @@ display:flex;
 }
 
 .nav-bar{
-margin-left:15%;
-margin-right:15%;
+margin-left:10%;
+margin-right:10%;
 background-color:blue;
 width:100%;
 height:50px;
@@ -25,3 +25,106 @@ height:50px;
 .flex-header{
     justify-content: center;
 }
+
+.header-box{
+    width:7%;
+    height:50px;
+    background-color: greenyellow;
+    
+}
+
+.flex-nav{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+}
+
+.change{
+    flex-basis:500px;
+}
+
+
+.title{
+    width:50%;
+    height: 400px;
+    background-color: yellow;
+    margin-left:25%;
+    margin-right:25%;
+    
+}
+    
+.container{
+    width:100%;
+    height:450px;
+    background-color:violet;
+
+}
+
+.middle-page{
+    width:100%;
+    height:400px;
+    background-color:greenyellow;
+    padding:10px;
+    
+}
+
+.mid-container{
+    width:55%;
+    height:400px;
+    background-color: green;
+    
+
+}
+
+.second-mid-container{
+width:45%;
+height:400px;
+background-color: green;
+margin-left:10px;
+}
+
+.mid-container-two{
+    width:45%;
+    height:400px;
+    background-color: green;
+    
+
+}
+
+.second-mid-container-two{
+    width:55%;
+    height:400px;
+    background-color: green;
+    margin-left:10px;
+    }
+
+    .middle-bottom-page{
+        width:100%;
+        height:800px;
+        background-color: red;
+        flex-direction:column;
+        margin:5px;
+    }
+
+    .middle-bottom-box{
+        width:100%;
+        height:200px;
+        background-color: darkred;
+        border:1px solid black;
+        margin:5px;
+        
+    }
+
+    .grow{
+        flex-basis:500px;
+    }
+
+
+
+
+   
+   
+  
+    
+    
+  
