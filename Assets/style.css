@@ -46,7 +46,7 @@ height:50px;
 
 .title{
     width:50%;
-    height: 400px;
+    height: 500px;
     background-color: yellow;
     margin-left:25%;
     margin-right:25%;
@@ -55,15 +55,15 @@ height:50px;
     
 .container{
     width:100%;
-    height:450px;
-    background-color:violet;
+    height:500px;
+    background-color:gray;
     
 
 }
 
 .middle-page{
     width:80%;
-    height:400px;
+    height:600px;
     background-color:greenyellow;
     padding:10px;
     margin-left: 10%;
@@ -73,7 +73,7 @@ height:50px;
 
 .mid-container{
     width:55%;
-    height:400px;
+    height:600px;
     background-color: green;
     
 
@@ -81,14 +81,14 @@ height:50px;
 
 .second-mid-container{
 width:45%;
-height:400px;
+height:600px;
 background-color: green;
 margin-left:10px;
 }
 
 .mid-container-two{
     width:45%;
-    height:400px;
+    height:600px;
     background-color: green;
     
 
@@ -96,17 +96,19 @@ margin-left:10px;
 
 .second-mid-container-two{
     width:55%;
-    height:400px;
+    height:600px;
     background-color: green;
     margin-left:10px;
     }
 
     .middle-bottom-page{
         width:100%;
-        height:800px;
+        height:40%;
         background-color: red;
         flex-direction:column;
         align-items:center;
+        margin-top:10px;
+        margin-bottom:10px;
         
         
     }
@@ -114,13 +116,16 @@ margin-left:10px;
     .middle-bottom-box{
         width:80%;
         height:300px;
-        background-color: darkred;
+        background-color:darkred;
         border:1px solid black;
-        margin:3px;
+        margin-top: 10px;
+        margin-bottom:10px;
+       
+
     }
 
     .grow{
-        flex-basis:400px;
+        flex-basis:500px;
     }
 
     .footer-container{
